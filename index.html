@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="images/image.jpg" alt="image">
+        <div class="header-text">
+        <img src="images/odin-lined.png" alt="" height="100px" width="auto">
+        <div class="logo">ODIN</div>
+        </div>
+    </div>
+    <div class="right-container">
+        <p>This is not a real online service! You know you need something like this in your life to realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+        <p>You know you want to.</p>
+        <form>
+            <fieldset>
+                <legend>Sign up</legend>
+            <div class="right-form">
+            <p>
+            <label for="first-name">First name:</label>
+            <input type="text" id="first-name" name="first-name" minlength="3" maxlength="10" placeholder="Mark" required>
+            </p>
+            
+
+            <p>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required placeholder="example@gamil.com">
+        </p>
+            
+              <p>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" minlength="6" required >
+        </p>
+            </div>
+            <div class="right-form">
+                <p>
+                <label for="last-name">Last name:</label>
+                <input type="text" id="last-name" name="last-name" minlength="3" maxlength="10" required placeholder="Jhonson">
+            </p>
+                <p> 
+                <label for="tel">Phone number:</label>
+                <input type="tel" id="tel" name="tel" minlength="10" maxlength="10" required placeholder="07xxxxxxxx">
+            </p>   
+                 <p>
+                <label for="confirm-password">Confirm password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </p>
+                </div>
+            </fieldset>
+            <input id="button" type="submit" value="Create account">
+        </form>
+        <div class="already-account">Already have an account? <a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/afdbabfab03fbc34783c6b6f3920aba4a4d3b935/intermediate_html_css/forms/project_sign_up_form/imgs/sign-up-form.png" style="text-decoration: none; color: white; font-weight: bold;">Log in.</a></div>
+    </div>
+   
+    
+</body>
+</html>
